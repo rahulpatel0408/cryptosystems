@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-01-02 at 21 49 54_394e2831](https://github.com/rahulpatel0408/cryptosystems/assets/147559135/d8341310-bff3-45b3-8c80-ddeb58a03e0c)# CyberLabs Project
+# CyberLabs Project
 
 ## Overview
 The completion of the CyberLabs project is divided into two fundamental parts: a robust cryptosystem and the implementation of the Diffie-Hellman key exchange protocol. This project is hosted on GitHub, with two main files: `cryptosystem` and `Diffie_Hellman_key_exchange`.
