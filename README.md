@@ -259,27 +259,27 @@ The 'Diffie Hellman Key Exchange' directory within the Git repository contains 3
 - The client has a separate thread (`receive_thread`) for receiving messages from the server.
 
 ## How to Use:
-# Server Login
+### Server Login
 - To access the server, use the following credentials:
   - IP: `127.0.0.1`
   - Host: `33000`
 ![WhatsApp Image 2024-01-02 at 23 11 30_ce72dac0](https://github.com/rahulpatel0408/cryptosystems/assets/147559135/e9221b4e-1fa1-4d43-a07e-4c4c41ac4975)
 
-# User Authentication
+### User Authentication
 - Enter a valid username to log in. A valid username must be a single word with no spaces and should not be in use by another user on the server.
    
-# Sending Messages
+### Sending Messages
 - To send a message to everyone, type your message and click the "Send" button.
 - To send a message to a specific user, use the format `@username` at the beginning of your message.
 
-# Diffie-Hellman Key Exchange
+### Diffie-Hellman Key Exchange
 - When initiating a direct message with a particular user for the first time, Diffie-Hellman key exchange will be automatically initiated.
 - Enter the values for `p`, `g`, and your secret key when prompted. Alternatively, you can use the "generate" option to let the script calculate the secret key.
 - The secret key is then converted to a 256-bit size for secure communication.
 ![WhatsApp Image 2024-01-02 at 23 14 35_a0bb4166](https://github.com/rahulpatel0408/cryptosystems/assets/147559135/78f8702f-b6e3-420c-be12-e98f4dde48ae)
 ![WhatsApp Image 2024-01-02 at 23 15 01_ac32ee20](https://github.com/rahulpatel0408/cryptosystems/assets/147559135/9c9a68ce-26ad-4cfd-88a9-c68a696408b5)
 
-# Encrypted Messaging
+### Encrypted Messaging
 - Once the Diffie-Hellman key exchange is completed, messages sent through the server are encrypted.
 - Only the intended recipient can decrypt and read the messages.
 ![WhatsApp Image 2024-01-02 at 23 18 19_5931838f](https://github.com/rahulpatel0408/cryptosystems/assets/147559135/6838be75-d762-47b4-aa49-db145477645e)
